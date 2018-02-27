@@ -15,6 +15,9 @@
 		09993C352044D98500E81044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09993C342044D98500E81044 /* main.m */; };
 		09993C3F2044D98500E81044 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09993C3E2044D98500E81044 /* HelloWorldTests.m */; };
 		09993C4A2044D98500E81044 /* HelloWorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09993C492044D98500E81044 /* HelloWorldUITests.m */; };
+		3251616A21A7CB1DFAD6F7B0 /* libPods-HelloWorldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5684FF03E4D57894A480E3 /* libPods-HelloWorldTests.a */; };
+		3B3A34E007D70945AC913C08 /* libPods-HelloWorldUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2056195F26E03BBE21276B6 /* libPods-HelloWorldUITests.a */; };
+		954798F361B9C5B13F265EA2 /* libPods-HelloWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E6E9A9014EC9A812BA065A /* libPods-HelloWorld.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07D5D6BBF8D5348DC1D90490 /* Pods-HelloWorldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldUITests/Pods-HelloWorldUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		09993C222044D98500E81044 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09993C252044D98500E81044 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09993C262044D98500E81044 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		09993C452044D98500E81044 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09993C492044D98500E81044 /* HelloWorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldUITests.m; sourceTree = "<group>"; };
 		09993C4B2044D98500E81044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153F4624BCB8FD7A821A1F73 /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		1863F42E1B802EF5FFC040A7 /* Pods-HelloWorldUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldUITests/Pods-HelloWorldUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89D7CDABEDFBC3B0186410F8 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
+		B2056195F26E03BBE21276B6 /* libPods-HelloWorldUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B4E4A82746A825EC8DDCEC /* Pods-HelloWorldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED5684FF03E4D57894A480E3 /* libPods-HelloWorldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E6E9A9014EC9A812BA065A /* libPods-HelloWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2901D9603BDB160C2BEEA1 /* Pods-HelloWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				954798F361B9C5B13F265EA2 /* libPods-HelloWorld.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3251616A21A7CB1DFAD6F7B0 /* libPods-HelloWorldTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B3A34E007D70945AC913C08 /* libPods-HelloWorldUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0962B5A13D9FA1F1503692BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				153F4624BCB8FD7A821A1F73 /* Pods-HelloWorld.debug.xcconfig */,
+				89D7CDABEDFBC3B0186410F8 /* Pods-HelloWorld.release.xcconfig */,
+				FE2901D9603BDB160C2BEEA1 /* Pods-HelloWorldTests.debug.xcconfig */,
+				D3B4E4A82746A825EC8DDCEC /* Pods-HelloWorldTests.release.xcconfig */,
+				07D5D6BBF8D5348DC1D90490 /* Pods-HelloWorldUITests.debug.xcconfig */,
+				1863F42E1B802EF5FFC040A7 /* Pods-HelloWorldUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		09993C192044D98500E81044 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				09993C3D2044D98500E81044 /* HelloWorldTests */,
 				09993C482044D98500E81044 /* HelloWorldUITests */,
 				09993C232044D98500E81044 /* Products */,
+				0962B5A13D9FA1F1503692BC /* Pods */,
+				2AF2E63F6BA6B0471178F764 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +162,16 @@
 			path = HelloWorldUITests;
 			sourceTree = "<group>";
 		};
+		2AF2E63F6BA6B0471178F764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9E6E9A9014EC9A812BA065A /* libPods-HelloWorld.a */,
+				ED5684FF03E4D57894A480E3 /* libPods-HelloWorldTests.a */,
+				B2056195F26E03BBE21276B6 /* libPods-HelloWorldUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09993C4E2044D98500E81044 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
 			buildPhases = (
+				9800C146CE97FEA35917DDFA /* [CP] Check Pods Manifest.lock */,
 				09993C1E2044D98500E81044 /* Sources */,
 				09993C1F2044D98500E81044 /* Frameworks */,
 				09993C202044D98500E81044 /* Resources */,
+				BA91DEA53B4F7A01E3333A83 /* [CP] Embed Pods Frameworks */,
+				293FFF9DA2DE9E11365C34D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09993C512044D98500E81044 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */;
 			buildPhases = (
+				DD722060A107B48857C88C3C /* [CP] Check Pods Manifest.lock */,
 				09993C362044D98500E81044 /* Sources */,
 				09993C372044D98500E81044 /* Frameworks */,
 				09993C382044D98500E81044 /* Resources */,
+				961FFDBEECBBD2B3B1F6FC7E /* [CP] Embed Pods Frameworks */,
+				CD8A5E2043BC160BE28DBA01 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09993C542044D98500E81044 /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */;
 			buildPhases = (
+				A82B674CB8500577F589CB9D /* [CP] Check Pods Manifest.lock */,
 				09993C412044D98500E81044 /* Sources */,
 				09993C422044D98500E81044 /* Frameworks */,
 				09993C432044D98500E81044 /* Resources */,
+				7B106605DACBE4B743FFA293 /* [CP] Embed Pods Frameworks */,
+				235F14A25C87323019C01CF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +308,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		235F14A25C87323019C01CF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorldUITests/Pods-HelloWorldUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		293FFF9DA2DE9E11365C34D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B106605DACBE4B743FFA293 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorldUITests/Pods-HelloWorldUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		961FFDBEECBBD2B3B1F6FC7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9800C146CE97FEA35917DDFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorld-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82B674CB8500577F589CB9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorldUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA91DEA53B4F7A01E3333A83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8A5E2043BC160BE28DBA01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD722060A107B48857C88C3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorldTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		09993C1E2044D98500E81044 /* Sources */ = {
@@ -428,6 +624,7 @@
 		};
 		09993C4F2044D98500E81044 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153F4624BCB8FD7A821A1F73 /* Pods-HelloWorld.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +639,7 @@
 		};
 		09993C502044D98500E81044 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D7CDABEDFBC3B0186410F8 /* Pods-HelloWorld.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +654,7 @@
 		};
 		09993C522044D98500E81044 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2901D9603BDB160C2BEEA1 /* Pods-HelloWorldTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +670,7 @@
 		};
 		09993C532044D98500E81044 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B4E4A82746A825EC8DDCEC /* Pods-HelloWorldTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +686,7 @@
 		};
 		09993C552044D98500E81044 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D5D6BBF8D5348DC1D90490 /* Pods-HelloWorldUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RQ66W3FWA8;
@@ -500,6 +701,7 @@
 		};
 		09993C562044D98500E81044 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1863F42E1B802EF5FFC040A7 /* Pods-HelloWorldUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RQ66W3FWA8;
